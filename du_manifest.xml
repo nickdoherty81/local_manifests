@@ -5,6 +5,9 @@
   <project name="nickdoherty81/android_device_oppo_common" path="device/oppo/common" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_vendor_oneplus" path="vendor/oneplus" remote="github" revision="p9x-caf" />
+
+<!-- CAF Open Source -->
+  <project name="nickdoherty81/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="github" revision="p9x-caf" />
 
