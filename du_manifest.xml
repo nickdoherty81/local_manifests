@@ -6,4 +6,9 @@
   <project name="nickdoherty81/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_vendor_oneplus" path="vendor/oneplus" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="github" revision="p9x-caf" />
+
+<!-- HALS -->
+  <project name="nickdoherty81/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" remote="github" revision="p9x-caf-8998" />
+  <project name="nickdoherty81/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8998" remote="github" revision="p9x-caf-8998" />
+  <project name="nickdoherty81/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" remote="github" revision="p9x-caf-8998" />
 </manifest>
