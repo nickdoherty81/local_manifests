@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="nickdoherty81/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="restart" />
-  <project name="nickdoherty81/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="restart" />
+<!-- Device Tree -->
+  <project name="nickdoherty81/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="p9x-caf" />
+  <project name="nickdoherty81/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_device_oppo_common" path="device/oppo/common" remote="github" revision="p9x-caf" />
   <project name="nickdoherty81/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="p9x-caf" />
-  <project name="nickdoherty81/android_vendor_oneplus" path="vendor/oneplus" remote="github" revision="restart" />
+  <project name="nickdoherty81/android_vendor_oneplus" path="vendor/oneplus" remote="github" revision="p9x-caf" />
+
+<!-- NickDoherty81 -->
+  <project name="nickdoherty81/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="p9x-caf" />
+  <project name="nickdoherty81/android_hardware_ril" path="hardware/ril" remote="github" revision="p9x-caf" />
 
 <!-- CAF UnicornioSucio -->
   <project name="UnicornioSucio/android_system_qcom" path="system/qcom" remote="github" revision="p9x-caf" />
@@ -14,6 +19,8 @@
   <project name="UnicornioSucio/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="p9x-caf" />
 
 <!-- Remove -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/msm8998" />
+  <remove-project name="platform/hardware/ril" />
 </manifest>
